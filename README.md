@@ -12,7 +12,7 @@ python 3.9+
 在 hoshino/config/__bot__.py 中添加本项目文件名
 在群里或私信向 bot 发送 [开启 HoshinoGruopMsg] 启用插件
 
-开启 HoshinoBC                            ：启用插件
+开启 HoshinoGruopMsg                        ：启用插件
 /广播 消息 -g group1 group2 group3...       ：向指定群发送消息
 
 重启成功之后会在群聊中发送 [bot名 启动成功]
