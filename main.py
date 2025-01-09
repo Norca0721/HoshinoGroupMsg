@@ -3,7 +3,7 @@ from hoshino.typing import CQEvent
 from hoshino import priv
 
 
-@sv.on_prefix("/广播", "/s 广播")
+@sv.on_prefix("/广播")
 async def broadcast(bot, ev: CQEvent):
     if not priv.check_priv(ev, priv.SUPERUSER):
         return
