@@ -1,6 +1,6 @@
 ### HoshinoBroadcast
 
-基于 [HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot) 的群发消息插件
+基于 [HoshinoBotV2](https://github.com/Ice-Cirno/HoshinoBot) 的群发消息插件
 
 **此项目起因是某个群发插件过于垃圾导致连同一些无关的群聊也一起发送消息而诞生**
 
