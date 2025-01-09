@@ -27,7 +27,7 @@ async def broadcast(bot, ev: CQEvent):
                 groups = ['123456789', '987654321', '543216789']
             '''
             if group_name == "测试":
-                groups = ['ev.group_id']
+                groups = [f'{ev.group_id}']
             
             else:
                 await bot.finish(ev, f"未知的组名：{group_name}")
