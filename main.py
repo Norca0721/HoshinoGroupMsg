@@ -15,7 +15,7 @@ async def broadcast(bot, ev: CQEvent):
         return
 
     group_index = args.index("--group") if "--group" in args else args.index("-g")
-    msg = " ".join(args[:group_index]).encode("utf-8").decode("unicode_escape")
+    msg = " ".join(args[:group_index])
     groups = args[group_index + 1:]
     
     try:
