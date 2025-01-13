@@ -14,8 +14,6 @@ python 3.9+
 
 开启 HoshinoGruopMsg                        ：启用插件
 /广播 消息 -g group1 group2 group3...       ：向指定群发送消息
-
-重启成功之后会在群聊中发送 [bot名 启动成功]
 ```
 
 ### 额外说明
