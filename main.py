@@ -35,7 +35,7 @@ async def broadcast(bot, ev: CQEvent):
             if group_name == "测试":
                 groups = [f'{ev.group_id}']
             
-            if isinstance(group_name, str):
+            elif isinstance(group_name, str):
                 await bot.send(ev, f"未知的组名：{group_name}")
     except Exception as e:
         await bot.finish(ev, f"未知的群号：{e}")
